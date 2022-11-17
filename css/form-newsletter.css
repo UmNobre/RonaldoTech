@@ -1,0 +1,36 @@
+.form-newsletter
+{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid rgb(82, 47, 177);
+    background-color: black;
+}
+
+.form-newsletter__label
+{
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.form-newsletter__campo
+{
+    padding: .6em  .4rem;
+    flex-grow: 1;
+    border: none;
+}
+
+.form-newsletter__botao
+{
+    flex-grow: 1;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: deeppink;
+    color: rgb(105, 179, 245);
+}
